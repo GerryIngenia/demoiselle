@@ -1,0 +1,14 @@
+//- Contenedor principal
+$container-width: 1200px;
+
+//- Media queries
+$responsive: (
+	desktop:           $container-width,
+	tablet-landscape:  1024px,
+	tablet-portrait:   990px,
+	tablet:            768px,
+	phablet:           740px,
+	mobile:            568px,
+	mobile-landscape:  480px,
+	mobile-portrait:   320px,
+);

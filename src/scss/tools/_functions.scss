@@ -1,0 +1,9 @@
+@use 'sass:math';
+//Funciones que convierten los pixeles en rem o em respectivamente
+@function rem($valor, $referencia:16px){
+	@return math.div($valor, $referencia) * 1rem;
+}
+
+@function em($valor, $referencia:16px){
+	@return math.div($valor, 16px) * 1em;
+}

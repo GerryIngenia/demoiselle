@@ -1,0 +1,42 @@
+.template-index{
+	.shopify-section.featured-collection-section.spaced-section{
+		padding-bottom: 0 !important;
+	}
+
+	.featured-collection-section__wrapper{
+		padding-bottom: 250px;
+		margin-bottom: 0 !important;
+
+		.featured-collection__title{
+			color: $cafe-1;
+
+			@include responsive(tablet-portrait){
+				font-size: 72px;
+			}
+
+			em{
+				font-weight: bold;
+			}
+		}
+
+		.featured-collection__text{
+			font-family: "Poppins", sans-serif;
+			font-size: 16px;
+			line-height: 21px;
+			font-weight: 300;
+			margin-left: 0;
+
+			@include responsive(tablet-portrait){
+				margin-left: 40px;
+			}
+		}
+
+		.featured-collection__button{
+			margin-left: 0;
+
+			@include responsive(tablet-portrait){
+				margin-left: 40px;
+			}
+		}
+	}
+}
