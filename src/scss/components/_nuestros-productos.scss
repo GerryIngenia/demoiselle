@@ -1,5 +1,9 @@
 .template-index{
-	.featured-collection-section{
+	.c-nuestros-productos{
+		.featured-collection-section__wrapper{
+			padding-bottom: 0;
+		}
+
 		h3.collection-product-list__buttons__title{
 			font-family: $tipografia-principal !important;
 		}

@@ -1,0 +1,14 @@
+.template-index{
+	.testimonials-section{
+		.testimonials{
+			&__slide-text{
+				@include responsive(tablet-portrait){
+					font-size: 75px;
+					line-height: 83px;
+					color: #514540;
+					letter-spacing: 3px;
+				}
+			}
+		}
+	}
+}

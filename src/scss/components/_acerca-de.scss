@@ -1,0 +1,20 @@
+.template-index{
+	.c-acerca-de{
+		.image-with-text{
+			&__content{
+				padding-top: 50px;
+			}
+
+			&__heading{
+				color: #514540;
+				margin: 0 0 15px 0;
+			}
+
+			&__text{
+				font-size: 14px;
+				line-height: 21px;
+				padding-bottom: 22px;
+			}
+		}
+	}
+}
