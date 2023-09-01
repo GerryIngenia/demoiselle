@@ -1,4 +1,4 @@
-.template-index{
+.template-index, .template-collection{
 	.shopify-section.featured-collection-section.spaced-section{
 		padding-bottom: 0 !important;
 	}
@@ -40,5 +40,11 @@
 				margin-left: 40px;
 			}
 		}
+	}
+}
+
+.template-collection{
+	.shopify-section.featured-collection-section.spaced-section{
+		padding-bottom: 190px !important;
 	}
 }
