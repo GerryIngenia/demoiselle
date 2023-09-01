@@ -1,10 +1,17 @@
 @import "settings/settings";
 @import "tools/tools";
 
-@import "components/acerca-de";
-@import "components/elige-tu-tono";
-@import "components/nuestros-productos";
-@import "components/por-que-polvo-de-arroz";
-@import "components/promociones-descuentos";
-@import "components/proteccion-solar";
-@import "components/testimonios";
+@import "components/footer";
+@import "components/header";
+
+@import "components/categorias/collection";
+@import "components/categorias/grid-productos";
+@import "components/categorias/polvos-de-arroz";
+
+@import "components/home/acerca-de";
+@import "components/home/elige-tu-tono";
+@import "components/home/nuestros-productos";
+@import "components/home/por-que-polvo-de-arroz";
+@import "components/home/promociones-descuentos";
+@import "components/home/proteccion-solar";
+@import "components/home/testimonios";

@@ -7,7 +7,8 @@ export default defineConfig({
 	build: {
 		rollupOptions: {
 			input: {
-				main: resolve(__dirname, 'index.html')
+				main: resolve(__dirname, 'index.html'),
+				categorias: resolve(__dirname, 'categorias.html'),
 			},
 			output: {
 				assetFileNames: "css/styles.min[extname]",

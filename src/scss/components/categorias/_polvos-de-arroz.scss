@@ -1,0 +1,13 @@
+.template-collection{
+	.spaced-section--full-width{
+		.collection-hero{
+			padding-top: 40px;
+			&__text-wrapper{}
+			&__title{
+				@include responsive(tablet-portrait){
+					width: 50%;
+				}
+			}
+		}
+	}
+}

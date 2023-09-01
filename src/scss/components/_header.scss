@@ -1,0 +1,13 @@
+.header{
+	&__heading-link{
+		img{
+			@include responsive(tablet-portrait){
+				width: 350px;
+			}
+		}
+	}
+
+	&__menu-item{
+		padding: 1.6rem 12px;
+	}
+}

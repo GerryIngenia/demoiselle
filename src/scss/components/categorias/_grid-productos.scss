@@ -1,0 +1,41 @@
+.template-collection{
+	#CollectionProductGrid{
+		background: #F6F4F3;
+		padding: 40px 0;
+	}
+
+	.collection-product{
+		margin-top: 0;
+	}
+
+	.collection-product-list{
+		margin-top: 0;
+
+		.card{
+			&-wrapper{
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+
+			&__title{
+				@include responsive(tablet-portrait){
+					font-size: 36px;
+				}
+			}
+
+			&__description{
+				font-family: "Poppins";
+				font-size: 16px;
+			}
+
+			&-information__bottom{
+				margin-top: 15px;
+			}
+		}
+
+		.price{
+			font-size: 16px;
+		}
+	}
+}

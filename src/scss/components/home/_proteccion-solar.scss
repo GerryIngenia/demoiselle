@@ -6,9 +6,11 @@
 	.featured-collection-section__wrapper{
 		padding-bottom: 250px;
 		margin-bottom: 0 !important;
+		background: #BAB0AC;
 
 		.featured-collection__title{
 			color: $cafe-1;
+			max-width: 500px;
 
 			@include responsive(tablet-portrait){
 				font-size: 72px;
