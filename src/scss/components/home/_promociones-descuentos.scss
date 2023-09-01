@@ -1,4 +1,4 @@
-.template-index{
+.template-index, .template-collection{
 	.section-product-image-banner{
 		h2.title--section{
 			font-family: "Playfair Display";
@@ -9,5 +9,11 @@
 			font-size: 16px;
 			line-height: 21px;
 		}
+	}
+}
+
+.template-collection{
+	.section-product-image-banner{
+		padding-top: 0 !important;
 	}
 }
