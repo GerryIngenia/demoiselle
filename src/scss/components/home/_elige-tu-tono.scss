@@ -109,7 +109,7 @@
 						height: 18px;
 						background: url("https://91322e.myshopify.com/cdn/shop/t/2/assets/flecha.svg") no-repeat center;
 						background-size: contain;
-
+						transition: all 0.3s;
 					}
 
 					@include hover(){
