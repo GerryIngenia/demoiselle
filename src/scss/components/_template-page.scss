@@ -6,7 +6,7 @@
 			justify-content: center;
 			list-style: none;
 			flex-wrap: wrap;
-			gap: 30px;
+			gap: 50px;
 			margin: 0 !important;
 			padding: 0 !important;
 		}
@@ -14,13 +14,15 @@
 		li{
 			width: 100%;
 			background: white;
-			font-size: 30px;
-			line-height: 40px;
+			font-size: 24px;
+			line-height: 24px;
 			padding: 20px;
 			margin: 0 !important;
+			text-align: center;
+			border: 1px solid rgb(86, 68, 62, 0.3);
 
 			@include responsive(tablet-portrait){
-				width: calc(33% - 20px);
+				width: calc(33% - 33px);
 			}
 		}
 
