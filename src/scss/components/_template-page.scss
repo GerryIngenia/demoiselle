@@ -1,4 +1,8 @@
-
+.template-page-preguntas-frecuentes{
+	h2.collapsible-content__heading{
+		text-align: center;
+	}
+}
 	.c-mapa-de-sitio{
 		.page-title{
 			text-align: center;
@@ -24,6 +28,10 @@
 			margin: 0 !important;
 			text-align: center;
 			border: 1px solid rgb(86, 68, 62, 0.3);
+
+			@include responsive(tablet){
+				width: calc(50% - 26px);
+			}
 
 			@include responsive(tablet-portrait){
 				width: calc(33% - 33px);
