@@ -1,7 +1,13 @@
 .template-index, .template-collection{
 	.image-collage-section{
-		.image-collage__image:nth-child(5){
-			bottom: 0;
+		.image-collage{
+			padding: 13rem 10rem 17rem 10rem;
+		}
+
+		.image-collage__image{
+			&:nth-child(5){
+				bottom: -30px;
+			}
 		}
 	}
 }
