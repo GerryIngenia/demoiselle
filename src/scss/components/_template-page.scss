@@ -18,9 +18,13 @@
 			justify-content: center;
 			list-style: none;
 			flex-wrap: wrap;
-			gap: 50px;
+			gap: 30px;
 			margin: 0 !important;
 			padding: 0 !important;
+
+			@include responsive(tablet-portrait){
+				gap: 50px;
+			}
 		}
 
 		li{
