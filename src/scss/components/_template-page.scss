@@ -1,54 +1,69 @@
 .template-page-preguntas-frecuentes{
+	.shopify-section{
+		padding-top: 20px !important;
+	}
+
 	h2.collapsible-content__heading{
 		text-align: center;
+		margin: 0 0 50px 0;
 	}
 
 	.collapsible-content__top{
 		max-width: none !important;
 	}
 }
-	.c-mapa-de-sitio{
-		.page-title{
-			text-align: center;
-		}
 
-		ul{
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			list-style: none;
-			flex-wrap: wrap;
-			gap: 30px;
-			margin: 0 !important;
-			padding: 0 !important;
+.template-page-mapa-de-sitio,
+.template-,
+.template-page-preguntas-frecuentes,
+.template-404{
+	.header-wrapper{
+		background: rgb(246, 244, 243);
+	}
+}
 
-			@include responsive(tablet-portrait){
-				gap: 50px;
-			}
-		}
+.c-mapa-de-sitio{
+	.page-title{
+		text-align: center;
+	}
 
-		li{
-			width: 100%;
-			background: white;
-			font-size: 18px;
-			line-height: 18px;
-			padding: 20px;
-			margin: 0 !important;
-			text-align: center;
-			border: 1px solid rgb(86, 68, 62, 0.3);
+	ul{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		list-style: none;
+		flex-wrap: wrap;
+		gap: 30px;
+		margin: 0 !important;
+		padding: 0 !important;
 
-			@include responsive(tablet){
-				width: calc(50% - 26px);
-			}
-
-			@include responsive(tablet-portrait){
-				width: calc(33% - 33px);
-				font-size: 24px;
-				line-height: 24px;
-			}
-		}
-
-		a{
-			text-decoration: none;
+		@include responsive(tablet-portrait){
+			gap: 50px;
 		}
 	}
+
+	li{
+		width: 100%;
+		background: white;
+		font-size: 18px;
+		line-height: 18px;
+		padding: 20px;
+		margin: 0 !important;
+		text-align: center;
+		border: 1px solid rgb(86, 68, 62, 0.3);
+
+		@include responsive(tablet){
+			width: calc(50% - 26px);
+		}
+
+		@include responsive(tablet-portrait){
+			width: calc(33% - 33px);
+			font-size: 24px;
+			line-height: 24px;
+		}
+	}
+
+	a{
+		text-decoration: none;
+	}
+}

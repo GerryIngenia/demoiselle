@@ -1,5 +1,7 @@
 .template-index{
 	.ordered-list-section{
+		padding-top: 60px;
+
 		.ordered{
 			&__title{
 				@include responsive(tablet-portrait){
