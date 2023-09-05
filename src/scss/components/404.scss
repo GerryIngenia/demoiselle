@@ -2,4 +2,12 @@
 	.main-page-title{
 		text-align: center;
 	}
+
+	.search__input{
+		width: 100% !important;
+
+		@include responsive(tablet-portrait){
+			width: auto;
+		}
+	}
 }
